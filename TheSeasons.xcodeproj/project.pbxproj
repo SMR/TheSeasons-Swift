@@ -77,11 +77,6 @@
 		38003745196BB065008A5C2E /* title_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 380036EB196BB065008A5C2E /* title_text@2x.png */; };
 		38003746196BB065008A5C2E /* to_be_continued.png in Resources */ = {isa = PBXBuildFile; fileRef = 380036EC196BB065008A5C2E /* to_be_continued.png */; };
 		38003747196BB065008A5C2E /* to_be_continued@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 380036ED196BB065008A5C2E /* to_be_continued@2x.png */; };
-		38003748196BB065008A5C2E /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 380036F1196BB065008A5C2E /* SKAction+SKTExtras.m */; };
-		38003749196BB065008A5C2E /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 380036F3196BB065008A5C2E /* SKEmitterNode+SKTExtras.m */; };
-		3800374A196BB065008A5C2E /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 380036F5196BB065008A5C2E /* SKNode+SKTExtras.m */; };
-		3800374B196BB065008A5C2E /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 380036F7196BB065008A5C2E /* SKTAudio.m */; };
-		3800374C196BB065008A5C2E /* SKTUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 380036F9196BB065008A5C2E /* SKTUtils.mm */; };
 		3800374D196BB065008A5C2E /* attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = 380036FB196BB065008A5C2E /* attribution.txt */; };
 		3800374E196BB065008A5C2E /* cameronmusic_meow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 380036FC196BB065008A5C2E /* cameronmusic_meow.wav */; };
 		3800374F196BB065008A5C2E /* pg01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 380036FD196BB065008A5C2E /* pg01.wav */; };
@@ -192,16 +187,6 @@
 		380036EB196BB065008A5C2E /* title_text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title_text@2x.png"; sourceTree = "<group>"; };
 		380036EC196BB065008A5C2E /* to_be_continued.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = to_be_continued.png; sourceTree = "<group>"; };
 		380036ED196BB065008A5C2E /* to_be_continued@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "to_be_continued@2x.png"; sourceTree = "<group>"; };
-		380036F0196BB065008A5C2E /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
-		380036F1196BB065008A5C2E /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
-		380036F2196BB065008A5C2E /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
-		380036F3196BB065008A5C2E /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
-		380036F4196BB065008A5C2E /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
-		380036F5196BB065008A5C2E /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
-		380036F6196BB065008A5C2E /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
-		380036F7196BB065008A5C2E /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
-		380036F8196BB065008A5C2E /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
-		380036F9196BB065008A5C2E /* SKTUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SKTUtils.mm; sourceTree = "<group>"; };
 		380036FB196BB065008A5C2E /* attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = attribution.txt; sourceTree = "<group>"; };
 		380036FC196BB065008A5C2E /* cameronmusic_meow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cameronmusic_meow.wav; sourceTree = "<group>"; };
 		380036FD196BB065008A5C2E /* pg01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pg01.wav; sourceTree = "<group>"; };
@@ -389,16 +374,6 @@
 		380036EF196BB065008A5C2E /* SKTUtils */ = {
 			isa = PBXGroup;
 			children = (
-				380036F0196BB065008A5C2E /* SKAction+SKTExtras.h */,
-				380036F1196BB065008A5C2E /* SKAction+SKTExtras.m */,
-				380036F2196BB065008A5C2E /* SKEmitterNode+SKTExtras.h */,
-				380036F3196BB065008A5C2E /* SKEmitterNode+SKTExtras.m */,
-				380036F4196BB065008A5C2E /* SKNode+SKTExtras.h */,
-				380036F5196BB065008A5C2E /* SKNode+SKTExtras.m */,
-				380036F6196BB065008A5C2E /* SKTAudio.h */,
-				380036F7196BB065008A5C2E /* SKTAudio.m */,
-				380036F8196BB065008A5C2E /* SKTUtils.h */,
-				380036F9196BB065008A5C2E /* SKTUtils.mm */,
 				3800375A196BB0D3008A5C2E /* SKActionExtensions.swift */,
 				3800375C196BB37A008A5C2E /* SKEmitterNodeExtensions.swift */,
 				3800375E196BB44B008A5C2E /* SKNodeExtensions.swift */,
@@ -616,24 +591,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3800374B196BB065008A5C2E /* SKTAudio.m in Sources */,
 				3800375B196BB0D3008A5C2E /* SKActionExtensions.swift in Sources */,
 				38003691196BAFAA008A5C2E /* GameScene.swift in Sources */,
 				38003763196BCECC008A5C2E /* SKTAudio.swift in Sources */,
-				3800374A196BB065008A5C2E /* SKNode+SKTExtras.m in Sources */,
 				38003693196BAFAA008A5C2E /* GameViewController.swift in Sources */,
 				3800376F196C307E008A5C2E /* Scene03.swift in Sources */,
 				38003768196BDFAA008A5C2E /* Scene00.swift in Sources */,
 				3800368D196BAFAA008A5C2E /* AppDelegate.swift in Sources */,
 				3800376D196C2640008A5C2E /* Scene02.swift in Sources */,
-				38003749196BB065008A5C2E /* SKEmitterNode+SKTExtras.m in Sources */,
 				3800376B196C11F4008A5C2E /* Scene01.swift in Sources */,
 				38003771196C3AFB008A5C2E /* Scene04.swift in Sources */,
-				3800374C196BB065008A5C2E /* SKTUtils.mm in Sources */,
 				3800375F196BB44B008A5C2E /* SKNodeExtensions.swift in Sources */,
 				3800375D196BB37A008A5C2E /* SKEmitterNodeExtensions.swift in Sources */,
 				38003765196BD1FF008A5C2E /* SKTUtils.swift in Sources */,
-				38003748196BB065008A5C2E /* SKAction+SKTExtras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -823,6 +793,7 @@
 				380036A9196BAFAA008A5C2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		380036AA196BAFAA008A5C2E /* Build configuration list for PBXNativeTarget "TheSeasonsTests" */ = {
 			isa = XCConfigurationList;
@@ -831,6 +802,7 @@
 				380036AC196BAFAA008A5C2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
